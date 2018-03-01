@@ -19,7 +19,7 @@ namespace Tutorial_9
                 newArray[i] = int.Parse(Console.ReadLine());
             }
 
-            Array.Sort(newArray);
+            Array.Sort(newArray); //sort array highest to lowest
             int lowestNumber = newArray[0];
             int middleNumber = newArray[1];
             int highestNumber = newArray[2];
